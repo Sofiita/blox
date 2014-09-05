@@ -1,0 +1,22 @@
+/* Custom Styles */
+
+.odd {
+  background-color: lightGray;
+}
+
+.even {
+  background-color: white;
+}
+
+.container {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.container > div {
+  min-height: 200px;
+  text-align: center;
+}
+
+.half, .third, .quarter, .fifth {
+  border: 1px solid red;
+}
